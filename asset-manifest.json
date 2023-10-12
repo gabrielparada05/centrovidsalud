@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/centrovidsalud/static/css/main.04e40b16.css",
-    "main.js": "/centrovidsalud/static/js/main.5d0312ca.js",
+    "main.css": "/centrovidsalud/static/css/main.867b151b.css",
+    "main.js": "/centrovidsalud/static/js/main.85955af5.js",
     "static/media/profile-2.png": "/centrovidsalud/static/media/profile-2.4752a9db34458eeffcfa.png",
     "static/media/doctor-picture.png": "/centrovidsalud/static/media/doctor-picture.0261bb4efe7a9075c56a.png",
     "static/media/profile-1.png": "/centrovidsalud/static/media/profile-1.0261bb4efe7a9075c56a.png",
@@ -10,11 +10,11 @@
     "static/media/doctor-book-appointment.png": "/centrovidsalud/static/media/doctor-book-appointment.edb3f4ac282ff3fefaec.png",
     "static/media/profile-4.png": "/centrovidsalud/static/media/profile-4.3c44185ab9c84614038f.png",
     "index.html": "/centrovidsalud/index.html",
-    "main.04e40b16.css.map": "/centrovidsalud/static/css/main.04e40b16.css.map",
-    "main.5d0312ca.js.map": "/centrovidsalud/static/js/main.5d0312ca.js.map"
+    "main.867b151b.css.map": "/centrovidsalud/static/css/main.867b151b.css.map",
+    "main.85955af5.js.map": "/centrovidsalud/static/js/main.85955af5.js.map"
   },
   "entrypoints": [
-    "static/css/main.04e40b16.css",
-    "static/js/main.5d0312ca.js"
+    "static/css/main.867b151b.css",
+    "static/js/main.85955af5.js"
   ]
 }
