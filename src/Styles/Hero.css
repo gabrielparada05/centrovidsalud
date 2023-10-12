@@ -99,8 +99,8 @@
     border-radius: 50%;
     background-color: #15978e;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 32px;
+    left: 32px;
     font-size: 24px;
     z-index: 20;
     cursor: pointer;

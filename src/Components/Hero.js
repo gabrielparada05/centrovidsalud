@@ -21,6 +21,7 @@ function Hero() {
   const handleButtonWhatsapp = () => {
     const whatsappURL = `whatsapp://send?phone=${phoneNumber}`;
       window.location.href = whatsappURL;
+      window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   const handleBookAppointmentClick = () => {
@@ -60,7 +61,7 @@ function Hero() {
             type="button"
             onClick={handleBookAppointmentClick}
           >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
+            <FontAwesomeIcon icon={faCalendarCheck} /> Agenda tu hora de atención
           </button>
           <div className="text-stats">
             <div className="text-stats-container">
@@ -94,7 +95,7 @@ function Hero() {
 
       <div
         onClick={handleButtonWhatsapp}
-        className="scroll-button" 
+        className={`scroll-button ${goUp ? "show-scroll" : ""}`}
       >
       <FontAwesomeIcon icon={faWhatsapp}/>
       </div>

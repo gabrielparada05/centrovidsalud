@@ -79,7 +79,7 @@ function AppointmentForm() {
 
       <div className="form-container">
         <h2 className="form-title">
-          <span>Book Appointment Online</span>
+          <span>Agenda tu hora de atención</span>
         </h2>
 
         <form className="form-content" onSubmit={handleSubmit}>

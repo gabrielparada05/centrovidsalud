@@ -1,15 +1,24 @@
 .scroll-button {
-     display: none; 
+    display: none; 
     position: fixed;
-    bottom: 28px;
-    right: 450px; 
-    /* background-color: #25d366; */
+    bottom: 32px;
+    right: 32px; 
+    padding: 25px;
+    background-color: #25d366;
     border: white;
-    color: #25d366;
+    color: #ffffff;
     cursor: pointer;
-    z-index: 20;   
-    transition: background-color 0.3s, transform 0.3s;
-    font-size: 40px
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: fixed;
+    font-size: 35px;
+    z-index: 20;
+    cursor: pointer;
+
   }
   
   .scroll-button:hover {
@@ -17,10 +26,14 @@
     transform: scale(1.1); 
   }
 
-  @media screen and (max-width: 640px){
+  .show-scroll {
+    display: flex;
+  }
+
+  /* @media screen and (max-width: 640px){
     .scroll-button {
         display: block
     }
-  };
+  }; */
     
 
